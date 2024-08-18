@@ -241,7 +241,7 @@ function Navbar({ setShowLogin }) {
               {isAdmin ? (
                 <MenuItem
                   onClick={() => {
-                    window.location.href = 'http://localhost:8080/'
+                    window.location.href = 'https://foodweb-admin-panel.onrender.com'
                     handleMenuClose()
                   }}
                   sx={{
