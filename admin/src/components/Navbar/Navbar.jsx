@@ -30,7 +30,7 @@ const Navbar = () => {
   }
 
   const handleLogout = () => {
-    window.location.href = 'http://localhost:5000'
+    window.location.href = 'https://foodweb-frontend.onrender.com'
     setToken(null)
     setIsAdmin(false)
     localStorage.removeItem('token') || sessionStorage.removeItem('token')
@@ -40,7 +40,7 @@ const Navbar = () => {
   }
 
   const handleHome = () => {
-    window.location.href = 'http://localhost:5000'
+    window.location.href = 'https://foodweb-frontend.onrender.com'
     handleMenuClose()
   }
 
