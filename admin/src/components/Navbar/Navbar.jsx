@@ -6,7 +6,7 @@ import HomeIcon from '@mui/icons-material/Home'
 
 const Navbar = () => {
   const handleHome = () => {
-    window.location.href = 'https://foodweb-admin-panel.onrender.com'
+    window.location.href = 'https://foodweb-frontend.onrender.com'
   }
   return (
     <Box
